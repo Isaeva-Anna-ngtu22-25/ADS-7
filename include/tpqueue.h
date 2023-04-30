@@ -19,6 +19,7 @@ class TPQueue {
         newItem->prev = nullptr;
         return newItem;
     }
+
  public:
     TPQueue() : head(nullptr), tail(nullptr) {}
     T pop() {
